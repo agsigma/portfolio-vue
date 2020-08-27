@@ -152,4 +152,23 @@ export default {
     text-align: right;
     width: 40px;
 }
+
+/* TABLES */
+/deep/ th {
+  background: #f5f5f5;
+  border: 1px solid #e5e5e5;
+  padding: 5px 10px;
+  word-break: normal;
+}
+/deep/ td {  
+  border: 1px solid #e5e5e5;
+  padding: 5px 10px;
+  word-break: normal;
+}
+/deep/ td a {
+  color: #5cc1a9;
+}
+/deep/ td a:hover {
+  color: #777;
+}
 </style>
