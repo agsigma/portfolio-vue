@@ -171,4 +171,12 @@ export default {
 /deep/ td a:hover {
   color: #777;
 }
+/* PARAGRAPHS */
+/deep/ p {
+  margin: 10px auto 15px auto;
+}
+/* STRONG */
+/deep/ strong {
+  font-weight: bolder;
+}
 </style>
