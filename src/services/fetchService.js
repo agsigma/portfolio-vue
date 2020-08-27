@@ -10,7 +10,10 @@ FetchService.prototype = {
         this.data = data;
         return data;
       })
-      .catch(err => console.error(err));
+      .catch(err => {
+        console.error(err);
+        return [];
+      });
   },
   getData: function() {
     // if (!this.fetchPromise) {
