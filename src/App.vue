@@ -206,6 +206,10 @@ table {
   text-align: center;
   padding: 20px 0px;
   background: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 body {
@@ -232,10 +236,6 @@ a:hover {
   color: #000;
   height: 64px;
   text-align: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 .site-title {
   font-size: 16px;
