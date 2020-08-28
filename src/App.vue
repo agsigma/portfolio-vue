@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
     <header id="masthead" class="site-header" role="banner">
       <h1 class="site-title">
         <span>Andrew Grzywocz</span>
@@ -206,7 +206,7 @@ table {
   text-align: center;
   padding: 20px 0px;
   background: white;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
@@ -220,6 +220,10 @@ body {
   font-weight: 400;
   line-height: 1.8;
   padding-bottom: 100px;
+  position: relative;
+  min-height: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 
 a {
