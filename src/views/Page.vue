@@ -48,7 +48,7 @@ export default {
           gallery.open();
         })
       });
-    }, 1000);
+    }, 0);
   },
   watch: {
     $route() {

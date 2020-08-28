@@ -178,7 +178,13 @@ table {
   color: #5cc1a9;
   padding: 0px 15px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
+}
+
+@media (min-width: 360px) {
+  #nav a {
+    font-size: 16px;
+  }
 }
 
 #nav .router-link-active {
@@ -209,6 +215,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.8;
+  padding-bottom: 100px;
 }
 
 a {
@@ -225,6 +232,10 @@ a:hover {
   color: #000;
   height: 64px;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .site-title {
   font-size: 16px;
